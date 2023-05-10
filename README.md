@@ -7,9 +7,9 @@ Este es un proyecto fullstack junior que consta de dos carpetas: cliente y servi
 
 Para clonar el repositorio, abre una terminal y ejecuta el siguiente comando:
 
-
+```
 git clone https://github.com/GenisPicoCordo/fullstack-junior.git
-
+```
 
 ## Instalar dependencias
 
@@ -18,18 +18,18 @@ git clone https://github.com/GenisPicoCordo/fullstack-junior.git
 Abre una terminal en la carpeta server.
 Ejecuta el siguiente comando para instalar las dependencias:
 
-
+```
 npm install
-
+```
 
 ### Cliente
 
 Abre una terminal en la carpeta client.
 Ejecuta el siguiente comando para instalar las dependencias:
 
-
+```
 npm install
-
+```
 
 
 ## Configuración del servidor
@@ -41,9 +41,9 @@ Rellena el archivo .env con las variables de entorno necesarias para la configur
 
 Para iniciar el servidor, abre una terminal en la carpeta server y ejecuta el siguiente comando:
 
-
+```
 npm run start
-
+```
 
 El servidor se iniciará en el puerto 8080.
 
@@ -52,9 +52,9 @@ El servidor se iniciará en el puerto 8080.
 
 Para iniciar el cliente, abre una terminal en la carpeta client y ejecuta el siguiente comando:
 
-
+```
 npm run dev
-
+```
 
 El cliente se iniciará en el puerto 5167.
 
