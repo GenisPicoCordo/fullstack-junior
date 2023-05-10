@@ -23,7 +23,7 @@ En la carpeta `cliente`, puede ejecutar los siguientes comandos:
 ### `npm run dev`
 
 Inicia la aplicación en modo de desarrollo.<br />
-Abra [http://localhost:3000](http://localhost:3000) para verla en el navegador.
+Abra [http://127.0.0.1:5173/](http://127.0.0.1:8080/) para verla en el navegador.
 
 La página se volverá a cargar si realiza modificaciones.<br />
 También verá cualquier error de lint en la consola.
