@@ -5,18 +5,16 @@ const Card = ({ id, title, image, variants }) => {
   const minPrice = Math.min(...variants.map((variant) => variant.price));
 
   return (
-    <div className="rounded-xl group relative shadow-card hover:shadow-cardhover card">
+    <div className="bg-white rounded-lg overflow-hidden shadow-md">
       <Link to={`/product/${id}`}>
         <img
-          className="w-full h-auto object-cover rounded-xl"
-          src={image}
+          className="object-cover w-full"
+          src={image ? image.src : "https://via.placeholder.com/300"}
           alt={title}
         />
-        <div className="group-hover:flex flex-col max-h-[94.5%] hidden absolute bottom-0 left-0 right-0 bg-[#10131f] m-2 p-4 rounded-md">
-          <h3 className="text-white text-sm overflow-y-auto prompt">{title}</h3>
-        </div>
-        <div className="w-7 h-7 rounded-full object-cover bg-green-700 flex justify-center items-center text-white text-xs font-bold">
-          <p className="text-white text-sm">${minPrice.toFixed(2)}</p>
+        <div className="p-4">
+          <h3 className="font-medium text-lg">{title}</h3>
+          <p className="text-gray-500 mt-2">${minPrice.toFixed(2)}</p>
         </div>
       </Link>
     </div>
