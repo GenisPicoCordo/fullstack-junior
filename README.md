@@ -56,11 +56,11 @@ Para iniciar el cliente, abre una terminal en la carpeta client y ejecuta el sig
 npm run dev
 ```
 
-El cliente se iniciará en el puerto 5167.
+El cliente se iniciará en el puerto 5173.
 
 ## Uso
 
-Una vez que el servidor y el cliente estén iniciados, puedes acceder al proyecto desde tu navegador web en la dirección http://localhost:5167/. Si necesitas realizar cambios en el código, el servidor y el cliente se actualizarán automáticamente cuando guardes los cambios.
+Una vez que el servidor y el cliente estén iniciados, puedes acceder al proyecto desde tu navegador web en la dirección http://localhost:5173/. Si necesitas realizar cambios en el código, el servidor y el cliente se actualizarán automáticamente cuando guardes los cambios.
 
 ## Contribuciones
 
