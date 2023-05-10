@@ -1,7 +1,6 @@
-# Nombre del proyecto
+# Test Full Stack Junior Dev <> Fantasticfy
 
-Test Full Stack Junior Dev <> Fantasticfy
-Este proyecto es un ejemplo de una tienda en línea simple utilizando React y la API de Shopify.
+Este proyecto es un ejemplo de una tienda en línea simple utilizando React, Node y la API de Shopify.
 
 ## Prerrequisitos
 
