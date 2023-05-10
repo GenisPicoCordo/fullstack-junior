@@ -1,53 +1,60 @@
-# Test Full Stack Junior Dev <> Fantasticfy
+# Proyecto Fullstack Junior
 
-Este proyecto es un ejemplo de una tienda en línea simple utilizando React, Node y la API de Shopify.
+Este proyecto contiene la implementación de un sitio web de comercio electrónico, con la posibilidad de ver productos en una lista, detalles de cada producto y cambiar las variantes del producto seleccionado.
 
-## Prerrequisitos
+## Estructura del proyecto
 
-- Node.js (v14+)
-- NPM (v7+)
+El proyecto está dividido en dos carpetas principales:
 
-## Configuración
+- `cliente`: Contiene la implementación del cliente del sitio web, utilizando React y React Router. Para iniciar el servidor localmente, ejecute el comando `npm run dev`.
 
-1. Clona el repositorio:
+- `servidor`: Contiene la implementación del servidor, utilizando Node.js y Express. Antes de iniciar el servidor, renombre el archivo `.env.example` a `.env` y complete las variables de entorno necesarias. Para iniciar el servidor localmente, ejecute el comando `npm run start`.
 
-```sh
-git clone https://github.com/tu-usuario/tu-proyecto.git
-```
+## Configuración del entorno
 
-2. Instala las dependencias:
+Antes de iniciar el cliente o el servidor, asegúrese de tener Node.js y npm instalados en su sistema. Puede descargarlos desde el sitio web oficial de Node.js: https://nodejs.org/
 
-```sh
-cd tu-proyecto
-npm install
-```
+Una vez que haya instalado Node.js y npm, abra una terminal en la carpeta `cliente` o `servidor` y ejecute el comando `npm install` para instalar todas las dependencias necesarias.
 
-3. Copia el archivo `.env.example` a `.env` y completa los valores necesarios:
+## Comandos disponibles
 
-```sh
-cp .env.example .env
-```
+En la carpeta `cliente`, puede ejecutar los siguientes comandos:
 
-4. Inicia el servidor de desarrollo:
+### `npm run dev`
 
-```sh
-npm start
-```
+Inicia la aplicación en modo de desarrollo.<br />
+Abra [http://localhost:3000](http://localhost:3000) para verla en el navegador.
 
-## Uso
+La página se volverá a cargar si realiza modificaciones.<br />
+También verá cualquier error de lint en la consola.
 
-Puedes acceder al sitio web en `http://localhost:3000`. La página de inicio mostrará una lista de productos, mientras que la página de detalles de productos te permitirá ver información detallada sobre un producto en particular.
+### `npm run build`
 
-## Contribuyendo
+Compila la aplicación para producción en la carpeta `build`.<br />
+Agrupa correctamente React en modo de producción y optimiza la compilación para obtener el mejor rendimiento.
 
-Si deseas contribuir a este proyecto, por favor sigue estos pasos:
+La compilación se minimiza y los nombres de archivo incluyen los hashes.<br />
+Tu aplicación está lista para ser implementada!
 
-1. Haz un fork del proyecto.
-2. Crea una rama con tu función o corrección de errores: `git checkout -b mi-rama`
-3. Haz tus cambios y haz commit de ellos: `git commit -m "Mi función"`
-4. Sube la rama: `git push origin mi-rama`
-5. Abre una pull request a la rama `main` del proyecto original.
+En la carpeta `servidor`, puede ejecutar los siguientes comandos:
+
+### `npm run start`
+
+Inicia el servidor en modo de producción.<br />
+El servidor se ejecutará en el puerto definido en la variable de entorno `PORT`.
+
+### `npm run dev`
+
+Inicia el servidor en modo de desarrollo.<br />
+El servidor se ejecutará en el puerto definido en la variable de entorno `PORT`.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Si desea contribuir a este proyecto, haga un fork de este repositorio y envíe una pull request con sus cambios. Asegúrese de seguir los lineamientos de contribución y código de conducta del proyecto.
 
 ## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT.
+Este proyecto está licenciado bajo la Licencia MIT. Consulte el archivo LICENSE para obtener más información.
+```
+
+Asegúrate de reemplazar el archivo README.md actual en tu repositorio con este nuevo archivo.
